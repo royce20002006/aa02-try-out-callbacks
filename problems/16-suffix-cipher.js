@@ -33,6 +33,7 @@ console.log(suffixCipher('incremental progress is very instrumental', cipher2));
 
 function suffixCipher(sentence, cipher) {
   // Your code here 
+ 
 }
 
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/

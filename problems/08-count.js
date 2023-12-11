@@ -27,6 +27,13 @@ console.log(result4); // 0
 *******************************************************************************/
 
 function count(array, cb) {
+  let sum = 0;
+  for (let i = 0; i < array.length; i++) {
+    if (cb(array[i])) {
+      sum++;
+    }
+  }
+  return sum;
   // Your code here 
 }
 
